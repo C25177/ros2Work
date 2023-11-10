@@ -1,0 +1,4 @@
+source;share/servicedemo/hook/cmake_prefix_path.dsv
+source;share/servicedemo/hook/cmake_prefix_path.sh
+source;share/servicedemo/local_setup.dsv
+source;share/servicedemo/local_setup.sh

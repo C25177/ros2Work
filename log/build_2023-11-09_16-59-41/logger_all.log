@@ -1,0 +1,255 @@
+[0.151s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.151s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='sequential', install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff4d7bbfbb0>>, merge_install=False, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff4d7bbfbb0>, verb_name='build', verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True))
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.261s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dragon/Documents/ros2Work'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ros'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control' with type 'ros.ament_cmake' and name 'control'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/servicedemo) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/servicedemo) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/servicedemo) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/servicedemo) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/servicedemo) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/servicedemo' with type 'ros.ament_cmake' and name 'servicedemo'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/topicdemo) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/topicdemo) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/topicdemo) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/topicdemo) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/topicdemo) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/topicdemo' with type 'ros.ament_cmake' and name 'topicdemo'
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dragon/Documents/ros2Work/build/control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dragon/Documents/ros2Work/install/control', 'merge_install': False, 'path': '/home/dragon/Documents/ros2Work/src/control', 'symlink_install': False, 'test_result_base': None}
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dragon/Documents/ros2Work/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dragon/Documents/ros2Work/install/interfaces', 'merge_install': False, 'path': '/home/dragon/Documents/ros2Work/src/interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'topicdemo' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'topicdemo' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'topicdemo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'topicdemo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'topicdemo' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'topicdemo' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'topicdemo' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'topicdemo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'topicdemo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] DEBUG:colcon.colcon_core.verb:Building package 'topicdemo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dragon/Documents/ros2Work/build/topicdemo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dragon/Documents/ros2Work/install/topicdemo', 'merge_install': False, 'path': '/home/dragon/Documents/ros2Work/src/topicdemo', 'symlink_install': False, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'servicedemo' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'servicedemo' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'servicedemo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'servicedemo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'servicedemo' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'servicedemo' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'servicedemo' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'servicedemo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'servicedemo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'servicedemo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dragon/Documents/ros2Work/build/servicedemo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dragon/Documents/ros2Work/install/servicedemo', 'merge_install': False, 'path': '/home/dragon/Documents/ros2Work/src/servicedemo', 'symlink_install': False, 'test_result_base': None}
+[0.411s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.432s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'control'
+[0.432s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dragon/Documents/ros2Work/src/control' with build type 'ament_cmake'
+[0.432s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dragon/Documents/ros2Work/src/control'
+[0.449s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.450s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dragon/Documents/ros2Work/build/control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dragon/Documents/ros2Work/build/control -- -j20 -l20
+[0.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dragon/Documents/ros2Work/build/control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dragon/Documents/ros2Work/build/control -- -j20 -l20
+[0.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dragon/Documents/ros2Work/build/control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dragon/Documents/ros2Work/build/control
+[0.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control)
+[0.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dragon/Documents/ros2Work/build/control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dragon/Documents/ros2Work/build/control
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/control' for CMake module files
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/control' for CMake config files
+[0.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'cmake_prefix_path')
+[0.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dragon/Documents/ros2Work/install/control/share/control/hook/cmake_prefix_path.dsv'
+[0.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dragon/Documents/ros2Work/install/control/share/control/hook/cmake_prefix_path.sh'
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/control/lib'
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/control/bin'
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/control/lib/pkgconfig/control.pc'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/control/lib/python3.8/site-packages'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/control/bin'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dragon/Documents/ros2Work/install/control/share/control/package.dsv'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/dragon/Documents/ros2Work/install/control/share/control/package.sh'
+[0.617s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dragon/Documents/ros2Work/install/control/share/colcon-core/packages/control)
+[0.657s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control)
+[0.678s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/control' for CMake module files
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/control' for CMake config files
+[0.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'cmake_prefix_path')
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dragon/Documents/ros2Work/install/control/share/control/hook/cmake_prefix_path.dsv'
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dragon/Documents/ros2Work/install/control/share/control/hook/cmake_prefix_path.sh'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/control/lib'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/control/bin'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/control/lib/pkgconfig/control.pc'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/control/lib/python3.8/site-packages'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/control/bin'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dragon/Documents/ros2Work/install/control/share/control/package.dsv'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/dragon/Documents/ros2Work/install/control/share/control/package.sh'
+[0.720s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dragon/Documents/ros2Work/install/control/share/colcon-core/packages/control)
+[0.720s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'control' finished with '0'
+[0.720s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'interfaces'
+[0.720s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dragon/Documents/ros2Work/src/interfaces' with build type 'ament_cmake'
+[0.720s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dragon/Documents/ros2Work/src/interfaces'
+[0.745s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dragon/Documents/ros2Work/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dragon/Documents/ros2Work/build/interfaces -- -j20 -l20
+[0.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dragon/Documents/ros2Work/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dragon/Documents/ros2Work/build/interfaces -- -j20 -l20
+[1.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dragon/Documents/ros2Work/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dragon/Documents/ros2Work/build/interfaces
+[1.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[1.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dragon/Documents/ros2Work/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dragon/Documents/ros2Work/build/interfaces
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/interfaces' for CMake module files
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/interfaces' for CMake config files
+[1.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[1.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dragon/Documents/ros2Work/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[1.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dragon/Documents/ros2Work/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[1.093s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/interfaces/lib'
+[1.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dragon/Documents/ros2Work/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dragon/Documents/ros2Work/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/interfaces/bin'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/interfaces/lib/pkgconfig/interfaces.pc'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/interfaces/lib/python3.8/site-packages'
+[1.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dragon/Documents/ros2Work/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dragon/Documents/ros2Work/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/interfaces/bin'
+[1.150s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dragon/Documents/ros2Work/install/interfaces/share/interfaces/package.dsv'
+[1.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/dragon/Documents/ros2Work/install/interfaces/share/interfaces/package.sh'
+[1.151s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dragon/Documents/ros2Work/install/interfaces/share/colcon-core/packages/interfaces)
+[1.194s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/interfaces' for CMake module files
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/interfaces' for CMake config files
+[1.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dragon/Documents/ros2Work/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[1.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dragon/Documents/ros2Work/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/interfaces/lib'
+[1.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[1.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dragon/Documents/ros2Work/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[1.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dragon/Documents/ros2Work/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[1.247s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/interfaces/bin'
+[1.247s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/interfaces/lib/pkgconfig/interfaces.pc'
+[1.247s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/interfaces/lib/python3.8/site-packages'
+[1.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[1.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dragon/Documents/ros2Work/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[1.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dragon/Documents/ros2Work/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/interfaces/bin'
+[1.281s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dragon/Documents/ros2Work/install/interfaces/share/interfaces/package.dsv'
+[1.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/dragon/Documents/ros2Work/install/interfaces/share/interfaces/package.sh'
+[1.282s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dragon/Documents/ros2Work/install/interfaces/share/colcon-core/packages/interfaces)
+[1.282s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'interfaces' finished with '0'
+[1.283s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'topicdemo'
+[1.283s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dragon/Documents/ros2Work/src/topicdemo' with build type 'ament_cmake'
+[1.283s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dragon/Documents/ros2Work/src/topicdemo'
+[1.300s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dragon/Documents/ros2Work/build/topicdemo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dragon/Documents/ros2Work/build/topicdemo -- -j20 -l20
+[1.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dragon/Documents/ros2Work/build/topicdemo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dragon/Documents/ros2Work/build/topicdemo -- -j20 -l20
+[1.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dragon/Documents/ros2Work/build/topicdemo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dragon/Documents/ros2Work/build/topicdemo
+[1.401s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topicdemo)
+[1.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dragon/Documents/ros2Work/build/topicdemo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dragon/Documents/ros2Work/build/topicdemo
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/topicdemo' for CMake module files
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/topicdemo' for CMake config files
+[1.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('topicdemo', 'cmake_prefix_path')
+[1.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dragon/Documents/ros2Work/install/topicdemo/share/topicdemo/hook/cmake_prefix_path.dsv'
+[1.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dragon/Documents/ros2Work/install/topicdemo/share/topicdemo/hook/cmake_prefix_path.sh'
+[1.441s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/topicdemo/lib'
+[1.441s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/topicdemo/bin'
+[1.441s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/topicdemo/lib/pkgconfig/topicdemo.pc'
+[1.441s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/topicdemo/lib/python3.8/site-packages'
+[1.441s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/topicdemo/bin'
+[1.459s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dragon/Documents/ros2Work/install/topicdemo/share/topicdemo/package.dsv'
+[1.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/dragon/Documents/ros2Work/install/topicdemo/share/topicdemo/package.sh'
+[1.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dragon/Documents/ros2Work/install/topicdemo/share/colcon-core/packages/topicdemo)
+[1.500s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topicdemo)
+[1.517s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/topicdemo' for CMake module files
+[1.517s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/topicdemo' for CMake config files
+[1.517s] Level 1:colcon.colcon_core.shell:create_environment_hook('topicdemo', 'cmake_prefix_path')
+[1.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dragon/Documents/ros2Work/install/topicdemo/share/topicdemo/hook/cmake_prefix_path.dsv'
+[1.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dragon/Documents/ros2Work/install/topicdemo/share/topicdemo/hook/cmake_prefix_path.sh'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/topicdemo/lib'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/topicdemo/bin'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/topicdemo/lib/pkgconfig/topicdemo.pc'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/topicdemo/lib/python3.8/site-packages'
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/topicdemo/bin'
+[1.552s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dragon/Documents/ros2Work/install/topicdemo/share/topicdemo/package.dsv'
+[1.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/dragon/Documents/ros2Work/install/topicdemo/share/topicdemo/package.sh'
+[1.553s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dragon/Documents/ros2Work/install/topicdemo/share/colcon-core/packages/topicdemo)
+[1.553s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'topicdemo' finished with '0'
+[1.553s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'servicedemo'
+[1.553s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dragon/Documents/ros2Work/src/servicedemo' with build type 'ament_cmake'
+[1.553s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dragon/Documents/ros2Work/src/servicedemo'
+[1.569s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dragon/Documents/ros2Work/build/servicedemo': AMENT_PREFIX_PATH=/home/dragon/Documents/ros2Work/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dragon/Documents/ros2Work/install/interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/dragon/Documents/ros2Work/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dragon/Documents/ros2Work/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dragon/Documents/ros2Work/build/servicedemo -- -j20 -l20
+[2.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dragon/Documents/ros2Work/build/servicedemo' returned '2': AMENT_PREFIX_PATH=/home/dragon/Documents/ros2Work/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dragon/Documents/ros2Work/install/interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/dragon/Documents/ros2Work/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dragon/Documents/ros2Work/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dragon/Documents/ros2Work/build/servicedemo -- -j20 -l20
+[2.796s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servicedemo)
+[2.817s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/servicedemo' for CMake module files
+[2.817s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/servicedemo' for CMake config files
+[2.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('servicedemo', 'cmake_prefix_path')
+[2.835s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dragon/Documents/ros2Work/install/servicedemo/share/servicedemo/hook/cmake_prefix_path.dsv'
+[2.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dragon/Documents/ros2Work/install/servicedemo/share/servicedemo/hook/cmake_prefix_path.sh'
+[2.836s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/servicedemo/lib'
+[2.836s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/servicedemo/bin'
+[2.836s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/servicedemo/lib/pkgconfig/servicedemo.pc'
+[2.836s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/servicedemo/lib/python3.8/site-packages'
+[2.836s] Level 1:colcon.colcon_core.environment:checking '/home/dragon/Documents/ros2Work/install/servicedemo/bin'
+[2.855s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dragon/Documents/ros2Work/install/servicedemo/share/servicedemo/package.dsv'
+[2.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/dragon/Documents/ros2Work/install/servicedemo/share/servicedemo/package.sh'
+[2.856s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dragon/Documents/ros2Work/install/servicedemo/share/colcon-core/packages/servicedemo)
+[2.856s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'servicedemo' finished with '2'
+[2.856s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[2.856s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[2.856s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.857s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.877s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dragon/Documents/ros2Work/install/local_setup.sh'
+[2.877s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dragon/Documents/ros2Work/install/_local_setup_util_sh.py'
+[2.878s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dragon/Documents/ros2Work/install/setup.sh'

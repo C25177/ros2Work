@@ -1,0 +1,8 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/dragon/Documents/ros2Work/src/interfaces:msg/ControlMsg.msg",
+    "/home/dragon/Documents/ros2Work/src/interfaces:srv/AddTwoInt.srv",
+    "/home/dragon/Documents/ros2Work/src/interfaces:action/Process.action"
+  ]
+}

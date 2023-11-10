@@ -1,0 +1,17 @@
+/home/dragon/Documents/ros2Work/install/servicedemo/share/ament_index/resource_index/package_run_dependencies/servicedemo
+/home/dragon/Documents/ros2Work/install/servicedemo/share/ament_index/resource_index/parent_prefix_path/servicedemo
+/home/dragon/Documents/ros2Work/install/servicedemo/share/servicedemo/environment/ament_prefix_path.sh
+/home/dragon/Documents/ros2Work/install/servicedemo/share/servicedemo/environment/ament_prefix_path.dsv
+/home/dragon/Documents/ros2Work/install/servicedemo/share/servicedemo/environment/path.sh
+/home/dragon/Documents/ros2Work/install/servicedemo/share/servicedemo/environment/path.dsv
+/home/dragon/Documents/ros2Work/install/servicedemo/share/servicedemo/local_setup.bash
+/home/dragon/Documents/ros2Work/install/servicedemo/share/servicedemo/local_setup.sh
+/home/dragon/Documents/ros2Work/install/servicedemo/share/servicedemo/local_setup.zsh
+/home/dragon/Documents/ros2Work/install/servicedemo/share/servicedemo/local_setup.dsv
+/home/dragon/Documents/ros2Work/install/servicedemo/share/servicedemo/package.dsv
+/home/dragon/Documents/ros2Work/install/servicedemo/share/ament_index/resource_index/packages/servicedemo
+/home/dragon/Documents/ros2Work/install/servicedemo/share/servicedemo/cmake/servicedemoConfig.cmake
+/home/dragon/Documents/ros2Work/install/servicedemo/share/servicedemo/cmake/servicedemoConfig-version.cmake
+/home/dragon/Documents/ros2Work/install/servicedemo/share/servicedemo/package.xml
+/home/dragon/Documents/ros2Work/install/servicedemo/lib/servicedemo/server
+/home/dragon/Documents/ros2Work/install/servicedemo/lib/servicedemo/client
